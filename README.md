@@ -12,11 +12,19 @@
 
 ## テーマの設定
 
-- サポートされているテーマの一覧: <https://pages.github.com/themes/>
+Github Pagesは静的サイトジェネレータJekyllを利用。
+`_config.yml`をpublic rootに設置するとテーマを作ってくれる。
 
 ```yml:_config.yml
-theme: jekyll-theme-carymon
+theme: jekyll-theme-caryman
 ```
+
+- サポートされているテーマの一覧: <https://pages.github.com/themes/>
+- 個人的に好きなテーマ
+  - architect
+  - cayman: よく見る
+  - hacker: よく見る
+  - minima
 
 ## その他
 
