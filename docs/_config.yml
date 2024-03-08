@@ -4,7 +4,7 @@ author: H. Iijima
 description: Personal Blog
 
 remote_theme: jekyll/minima
-theme: minima
+# theme: minima
 
 header_pages:
   - about.md
