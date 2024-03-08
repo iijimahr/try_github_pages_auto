@@ -44,6 +44,16 @@ title: Blogging Like a Hacker
 - Posts: <http://jekyllrb-ja.github.io/docs/posts/>
 - ブログの自動生成
 
+## Jekyll Minima
+
+- <https://github.com/jekyll/minima/>
+- Jekyllでブログを作る時に便利なテーマ
+- Layouts:
+  - base: 基底フォーマット
+  - home: トップページのみ
+  - page: Aboutなど
+  - post: ブログの各ポスト
+
 ## その他
 
 - htmlだけでなくもととなるMarkdownファイルも見える

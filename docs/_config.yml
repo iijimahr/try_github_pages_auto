@@ -1,9 +1,14 @@
-title: Blog posts by iijimahr
+title: H.I. Blog
 author: H. Iijima
 
-description: Personal Blog
+description: >-
+  This is a my personal blog.
+  There is no guarantee on information described.
 
+# Use latest version of minima
 remote_theme: jekyll/minima
+
+# Use old version of minima on Github Pages
 # theme: minima
 
 header_pages:
@@ -11,18 +16,15 @@ header_pages:
 
 show_excerpts: false
 
-# Minima specific settings, which are only available from Minima 3.0 onward.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima specific settings (Minima >= 3.0)
 minima:
-  # classic, dark, auto
+  # skin: [classic, dark, auto]
   skin: dark
-
-  # Minima date format.
-  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
-  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
-  #date_format: "%b-%d-%Y"
-  date_format: "%Y-%m-%d %H:%M"
-
-  # Generate social links in footer.
+  date_format: "%Y-%m-%d"
   social_links:
     - { platform: github,         user_url: "https://github.com/iijimahr" }
     - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=cFi3h5UAAAAJ" }

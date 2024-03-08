@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Jekyllでブログポスト"
+title: "Jekyllでブログポスト"
 ---
 
 ## なかなか便利そう
