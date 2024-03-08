@@ -1,5 +1,9 @@
 # Github Pagesのお試しレポジトリ
 
+## URL
+
+- <https://iijimahr.github.io/try_github_pages_auto/>
+
 ## 手順
 
 1. publicリポジトリの作成(無料ユーザだとpublicにしないと使えない様子)
@@ -9,6 +13,11 @@
    2. Branch: `main`, `/docs`
 4. Actions: `pages build and deployment`なら成功
 5. URL: <https://iijimahr.github.io/try_github_pages_auto/>
+
+## 個人的な利用方針
+
+- ブログ: blogというリポジトリを作ってrepo rootを公開
+- プロジェクトページ: docsディレクトリをpublic rootとして公開
 
 ## テーマの設定
 
@@ -53,6 +62,9 @@ title: Blogging Like a Hacker
   - home: トップページのみ
   - page: Aboutなど
   - post: ブログの各ポスト
+- メタ情報:
+  - category: ブログのカテゴリ(ディレクトリ分けと同等)
+  - tags: ブログのタグ(複数設定可能; YAML list or スペース区切り)
 
 ## その他
 

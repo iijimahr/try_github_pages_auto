@@ -1,9 +1,11 @@
 title: H.I. Blog
-author: H. Iijima
+author:
+  name: H. Iijima
+  email: dummy@email.com
 
 description: >-
-  This is a my personal blog.
-  There is no guarantee on information described.
+  This is a personal blog.
+  There are no guarantees for the information contained herein.
 
 # Use latest version of minima
 remote_theme: jekyll/minima

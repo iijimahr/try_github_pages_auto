@@ -3,8 +3,8 @@ layout: home
 title: H.I. Blog
 ---
 
-## 追加情報
+## トップページへの追加情報
 
-お試し
+Postsヘッダ(`h2`)の上にある記述は`layout: home`でも残るらしい。
 
 ## Posts
