@@ -10,10 +10,18 @@
 4. Actions: `pages build and deployment`なら成功
 5. URL: <https://iijimahr.github.io/try_github_pages_auto/>
 
+## テーマの設定
+
+```yml:_config.yml
+theme: jekyll-theme-merlot
+```
+
 ## その他
 
 - htmlだけでなくもととなるMarkdownファイルも見える
+- カスタム Github Actions での公開は beta らしい
 
 ## 参考
 
-<https://qiita.com/MahoTakara/items/3800e9dc83b530d0a050>
+- 概要: <https://qiita.com/MahoTakara/items/3800e9dc83b530d0a050>
+- 公式: <https://docs.github.com/ja/pages>
