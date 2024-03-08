@@ -1,5 +1,40 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
-# theme: jekyll-theme-minima
+title: Blog
+author:
+  name: iijimahr
+  email: dummy@email.com
 
+description: Personal Blog
+
+remote_theme: jekyll/minima
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+header_pages:
+  - index.md
+  - about.md
+  - other.md
+
+show_excerpts: false
+
+# Minima specific settings, which are only available from Minima 3.0 onward.
+minima:
+  # classic, dark, auto
+  skin: auto
+
+  # Minima date format.
+  # The default value is "%b %d, %Y" (e.g. Nov 14, 2023)
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #date_format: "%b-%d-%Y"
+  date_format: "%Y-%m-%d %H:%M"
+
+  # Generate social links in footer.
+  social_links:
+    - { platform: github,         user_url: "https://github.com/iijimahr" }
+    - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=cFi3h5UAAAAJ" }
+    # - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+    # - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+    # - { platform: x,              user_url: "https://x.com/jekyllrb" }
+    # - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }

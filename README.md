@@ -1,4 +1,4 @@
-# Github Pagesのお試しディレクトリ
+# Github Pagesのお試しレポジトリ
 
 ## 手順
 
@@ -12,8 +12,8 @@
 
 ## テーマの設定
 
-Github Pagesは静的サイトジェネレータJekyllを利用。
-`_config.yml`をpublic rootに設置するとテーマを作ってくれる。
+- Github Pagesは静的サイトジェネレータJekyllを利用。
+- `_config.yml`をpublic rootに設置するとテーマを作ってくれる。
 
 ```yml:_config.yml
 theme: jekyll-theme-caryman
@@ -21,10 +21,10 @@ theme: jekyll-theme-caryman
 
 - サポートされているテーマの一覧: <https://pages.github.com/themes/>
 - 個人的に好きなテーマ
-  - architect
+  - architect: 好き嫌いはありそうだが好き
   - cayman: よく見る
   - hacker: よく見る
-  - minima
+  - minima: シンプルで好き
 
 ## Jekyll Front Matter
 
