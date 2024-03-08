@@ -12,14 +12,17 @@
 
 ## テーマの設定
 
+- サポートされているテーマの一覧: <https://pages.github.com/themes/>
+
 ```yml:_config.yml
-theme: jekyll-theme-merlot
+theme: jekyll-theme-carymon
 ```
 
 ## その他
 
 - htmlだけでなくもととなるMarkdownファイルも見える
 - カスタム Github Actions での公開は beta らしい
+- 数式はmathjaxをいちいち呼ぶ感じか
 
 ## 参考
 
