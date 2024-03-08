@@ -26,13 +26,33 @@ theme: jekyll-theme-caryman
   - hacker: よく見る
   - minima
 
+## Jekyll Front Matter
+
+- Jekyllへ個々のファイル処理時の設定を伝える
+- 公開するMarkdownファイルの先頭に以下のような記述を追記
+- グローバル変数、ユーザ設定変数、ポスト(後述)の定義済み変数を参照することも可能
+
+```yml
+---
+layout: post
+title: Blogging Like a Hacker
+---
+```
+
+## Jekyll Posts
+
+- Posts: <http://jekyllrb-ja.github.io/docs/posts/>
+- ブログの自動生成
+
 ## その他
 
 - htmlだけでなくもととなるMarkdownファイルも見える
 - カスタム Github Actions での公開は beta らしい
-- 数式はmathjaxをいちいち呼ぶ感じか
+- 数式はMathJaxをいちいち呼ぶ感じか
 
 ## 参考
 
-- 概要: <https://qiita.com/MahoTakara/items/3800e9dc83b530d0a050>
-- 公式: <https://docs.github.com/ja/pages>
+- GitHub Pages概要: <https://qiita.com/MahoTakara/items/3800e9dc83b530d0a050>
+- GitHub Pages公式: <https://docs.github.com/ja/pages>
+- Jekyll: <http://jekyllrb-ja.github.io/docs/>
+- MathJax: <https://www.mathjax.org/>
