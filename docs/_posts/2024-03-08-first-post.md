@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyllでブログポスト"
 ---
 
-# Welcome
+## なかなか便利そう
 
-**Hello world**, this is my first Jekyll blog post.
-
-I hope you like it!
+簡単に書けるの良いね。
+自動でインデックスしてくれるし。
