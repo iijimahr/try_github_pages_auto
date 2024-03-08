@@ -1,7 +1,33 @@
-# 別のファイル
+---
+# layout: page
+title: Another file title
+---
 
-## 別のファイルで
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-### どんな見え方になるか
+# Github Pagesのお試しディレクトリ
 
-知りたかった。
+## 数式
+
+数式にはMathJaxが必要。
+
+$$
+\frac{\partial \rho}{\partial t} + \nabla \cdot \left(\rho {\bf V}\right) = 0
+$$
+
+インライン: $\int \exp(-x) dx$
+
+## 箇条書き
+
+- 箇条書き
+  - 箇条書き
+  - 箇条書き
+    - 箇条書き
+- 箇条書き
+
+1. 箇条書き
+   1. 箇条書き
+   2. 箇条書き
+      1. 箇条書き
+2. 箇条書き

@@ -10,7 +10,6 @@ theme: minima
 
 header_pages:
   - index.md
-  - about.md
   - other.md
 
 show_excerpts: false
