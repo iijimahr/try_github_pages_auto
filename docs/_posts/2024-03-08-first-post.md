@@ -13,7 +13,7 @@ title: "Github Pagesで簡易ブログを作成"
 4. Actions: `pages build and deployment`なら成功
 5. URL: <https://iijimahr.github.io/try_github_pages_auto/>
 
-## 利用方針
+## 個人的な利用方針
 
 - ブログ: blogというリポジトリを作ってrepo rootを公開
 - プロジェクトページ: docsディレクトリをpublic rootとして公開
