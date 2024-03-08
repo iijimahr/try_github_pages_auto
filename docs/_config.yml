@@ -3,12 +3,11 @@ author: H. Iijima
 
 description: Personal Blog
 
-# remote_theme: jekyll/minima
+remote_theme: jekyll/minima
 theme: minima
 
 header_pages:
-  - index.md
-  - other.md
+  - about.md
 
 show_excerpts: false
 

@@ -14,8 +14,6 @@ $$
 \frac{\partial \rho}{\partial t} + \nabla \cdot \left(\rho {\bf V}\right) = 0
 $$
 
-インライン: $\int \exp(-x) dx$
-
 ## 箇条書き
 
 - 箇条書き
